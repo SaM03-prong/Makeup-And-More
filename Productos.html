@@ -47,34 +47,22 @@
     <section class="Productos">
 
         <div class="cajas">
-            <label for="">Fecha de registro</label>
-            <input type="date">
+            <label>Codigo de Barras</label>
+            <input type="text" placeholder="Codigo de Barras" class="caja">
         </div>
         <div class="cajas">
-            <label>Categoria:</label>
+            <label>Precio:</label>
             <br>
-            <select class="seleccione">
-            <option>Seleccione ...</option>
-            <option>Base</option>
-            <option>Polvo suelto</option>
-            <option>Corrector</option>
-            <option>Gloss</option>
-            <option>Rubor en crema</option>
-            <option>Tinta</option>
-        </select>
-        </div>
-        <div class="cajas">
-            <label>Precio</label>
-            <br>
-            <input type="number" placeholder="Digite el Producto" class="caja">
-        </div>
-
-        <div class="cajas">
-            <input type="radio" name="tipo" class="radio">
-            <label>Delicado</label><br>
-            <input type="radio" name="tipo" class="radio">
-            <label>Fuerte</label>
-        </div>
+           <select class="Seleccione">
+            <option>Seleccione...</option>
+            <option>Base 45.000</option>
+            <option>Corrector 20.000</option>
+            <option>Rubor en crema 15.000</option>
+            <option>Tinta 12.000</option>
+            <option>Polvo suelto 28.000</option>
+            <option>Gloss 15.000</option>
+            </select>
+           </div>
 
         <div class="cajas">
             <input type="checkbox">
@@ -82,26 +70,55 @@
         </div>
 
         <div class="cajas">
-            <label>Foto</label>
+            <label>Nombre del Producto:</label>
 
-            <input type="file" class="foto">
+            <input type="text" placeholder="Nombre del Producto" class="caja">
         </div>
 
         <div class="cajas">
-            <label>Nivel Venta</label>
+            <label>Marca:</label>
             <br>
-            <input type="range" class="nivel"/>
+            <input type="text" placeholder="Marca del Producto" class="caja">
         </div>
 
         <div class="cajas">
-            <label for="">Color</label>
+            <label>Stock:</label>
             <br>
-            <input type="color" name="color" id="color" class="color" />
+            <select class="Seleccione">
+             <option>Seleccione...</option>
+             <option>Base 220 unidades disponibles</option>
+             <option>Corrector 300 unidades disponibles</option>
+             <option>Rubor en crema 300 unidades disponibles</option>
+             <option>Tinta 200 unidades disponibles</option>
+             <option>Polvo suelto 300 unidades disponibles</option>
+             <option>Gloss 220 unidades disponibles</option>
+             </select>
         </div>
-
         <div class="cajas">
-            <textarea name="message" rows="4" cols="27" placeholder="Descepcion de productos"></textarea>
-        </div>
+            <label>Dimensiones:</label>
+            <select class="Seleccione">
+                <option>Seleccione...</option>
+                <option>Base de 50-30 milimetros</option>
+                <option>Base de 20-15 milimetros</option>
+                <option>Base de 5-8 centímetros</option>
+                <option>Corrector de 3-10 Gramos</option>
+                <option>Corrector 4 y 6 centímetros de longitud</option>
+                <option>Corrector de 2-3 centímetros</option>
+                <option>Rubor de 6 y 8 centímetros de diametro</option>
+                <option>Rubor de 3-2 centímtros</option>
+                <option>Tinta de 8-12 centímetros</option>
+                <option>Polvo suelto 7-8 centímetros de diámetro</option>
+                <option>Polvo suelto de 4-5 centímetros</option>
+                <option>Gloss diametro de 2-3 centímetros</option>
+                <option>Gloss de 8-10 centímetros</option>
+                </select>
+
+                <div class="DESCRIPCION">
+                    <textarea name="message" rows="4" cols="27" placeholder="Descepcion de productos"></textarea>
+                </div>
+                
+            </div>
+            
     </section>
 
     
